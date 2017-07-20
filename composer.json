@@ -1,0 +1,32 @@
+{
+    "name": "dfkgw/mime-fold-flowed-text",
+    "type": "library",
+    "description": "Fold/unfold MIME plain text messages (RFC3676)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daiji Fukagawa",
+            "email": "dfukagaw28@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "dfkgw\\MimeFoldFlowedText\\" : "src/"
+        }
+    },
+    "require": {
+        "ext-mbstring": "*",
+        "dfkgw/mail-mime-ex": "*"
+    },
+    "require-dev": {
+        "phpmd/phpmd": "^2.6",
+        "friendsofphp/php-cs-fixer": "^2.4",
+        "phpunit/phpunit": "^6.2"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://tiramis2.doshisha.ac.jp/gogs/daiji/pear-Mail_Mime-Ex.git"
+        }
+    ]
+}
