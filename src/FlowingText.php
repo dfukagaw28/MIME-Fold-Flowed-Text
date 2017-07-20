@@ -193,8 +193,7 @@ class FlowingText
                 $prefix = str_repeat('>', $level) . ' ';
                 $line = self::wordwrap($line, $length - $level - 1, " \r\n$prefix", $encoding, $delsp);
                 $line = $prefix . $line;
-            // Others
-            } else {
+            } else { // Others
                 $line = self::wordwrap($line, $length, " \r\n", $encoding, $delsp);
                 // space-stuffing
                 $line = preg_replace('/(^|\r\n)(From| |>)/', '\\1 \\2', $line);
