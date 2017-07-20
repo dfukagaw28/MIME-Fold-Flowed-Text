@@ -15,18 +15,11 @@
         }
     },
     "require": {
-        "ext-mbstring": "*",
-        "dfkgw/mail-mime-ex": "*"
+        "ext-mbstring": "*"
     },
     "require-dev": {
         "phpmd/phpmd": "^2.6",
         "friendsofphp/php-cs-fixer": "^2.4",
         "phpunit/phpunit": "^6.2"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://tiramis2.doshisha.ac.jp/gogs/daiji/pear-Mail_Mime-Ex.git"
-        }
-    ]
+    }
 }
