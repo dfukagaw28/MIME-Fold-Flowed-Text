@@ -18,8 +18,8 @@
         "ext-mbstring": "*"
     },
     "require-dev": {
-        "phpmd/phpmd": "^2.6",
-        "friendsofphp/php-cs-fixer": "^2.4",
-        "phpunit/phpunit": "^6.2"
+        "phpmd/phpmd": "*",
+        "friendsofphp/php-cs-fixer": "*",
+        "phpunit/phpunit": "*"
     }
 }
