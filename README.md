@@ -19,7 +19,7 @@ $ php composer.phar require dfkgw/mime-fold-flowed-text
 ## Development
 
 ```
-$ git clone https://tiramis2.doshisha.ac.jp/gogs/daiji/MIME-Fold-Flowed-Text.git
+$ git clone https://github.com/dfukagaw28/MIME-Fold-Flowed-Text.git
 $ cd MIME-Fold-Flowed-Text
 $ composer install
 ```
